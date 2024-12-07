@@ -10,7 +10,7 @@ print("Hello \n"  "My name is rai")
 print("The value is " , 21)
 # Writitng multiple arguments
 
-print("welcome to " end="!")
+print("welcome to " , end= "!")
 
 
 
@@ -28,4 +28,13 @@ print(C)
 name = input("Enter Your Name: ")
 
 print("\n Hello," , name , "\n  Welcome to codingal")
+
+
+
+#Python keyword
+
+import keyword
+
+print("python keywords are... \n")
+print(keyword.kwlist)
 
