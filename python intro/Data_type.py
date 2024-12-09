@@ -35,3 +35,11 @@ age = float(age)
 print("The data type of age :" , type(age))
 weight = int(weight)
 print("The data type of weight :" , type(weight))
+
+#string opertion
+
+text = str(input("Enter a string:  "))
+revtext = text[::-1]
+print("The reversed text is:  " , revtext)
+
+
