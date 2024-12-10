@@ -35,3 +35,4 @@ print("The total obtained marks is " , sum)
 
 per = (sum/400)*100
 print("The total percentage is " , per)
+
