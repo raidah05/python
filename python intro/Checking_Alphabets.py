@@ -1,0 +1,6 @@
+alphabet = str(input("Enter a Character: "))
+
+if alphabet == "A" or alphabet == "B" or alphabet == "C" or alphabet == "D" or alphabet == "E" or alphabet == "F" or alphabet == "G" or alphabet == "H" or alphabet == "I" or alphabet == "J" or alphabet == "K" or alphabet == "L" or alphabet == "M" or alphabet == "N" or alphabet == "O" or alphabet == "P" or alphabet == "Q"  or alphabet == "R" or alphabet == "S" or alphabet == "T" or alphabet == "U" or alphabet == "V" or alphabet == "W" or alphabet == "X" or alphabet == "Y" or alphabet == "Z" or alphabet == "a" or alphabet == "b" or alphabet == "c" or alphabet == "d" or alphabet == "e" or alphabet == "f" or alphabet == "g" or alphabet == "h" or alphabet == "i" or alphabet == "j" or alphabet == "k" or alphabet == "l" or alphabet == "m" or alphabet == "n" or alphabet == "o" or alphabet == "p" or alphabet == "q"  or alphabet == "r" or alphabet == "s" or alphabet == "t" or alphabet == "u" or alphabet == "v" or alphabet == "w" or alphabet == "x" or alphabet == "y" or alphabet == "z" :
+    print(alphabet, "is an alphabet")
+else:
+    print("This is not an alphabet")
