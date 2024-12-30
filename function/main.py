@@ -1,11 +1,11 @@
 print("Area of circle")
 
 r = float(input("Enter the radius of circle: "))
-
+a = r 
 def circle_circumference (r):
     return 2*3.14*r
 
-print(circle_circumference(9))
+print(circle_circumference(a))
 
 
 
@@ -62,3 +62,15 @@ elif operator == 4:
 else:
     print("Error")
   
+
+
+#After class project
+
+print("Circumference of circle")
+
+x = int(input("Enter the radius of circle: "))
+
+
+def cir_Circumference(x):
+    return 2*3.14*x
+print(cir_Circumference(x))
