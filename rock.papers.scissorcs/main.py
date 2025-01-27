@@ -17,3 +17,15 @@ elif user_choice == "Scissors" or user_choice=="scissors" and comp_choice=="pape
     print("You win!!!!")
 else:
     print("You lose :/")
+
+
+#Math
+
+import math
+print(math.sin(45))
+print(math.cos(45))
+print(math.tan(45))
+
+print(math.ceil(45.49))
+print(math.floor(45.79))
+print(math.factorial(5))
