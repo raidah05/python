@@ -33,3 +33,19 @@ if(palind(r)):
     print("The tuple is flip-flop")
 else:
     print("The tuple is not flip-flop")
+
+
+#Weather 
+weather = (1,0,1,0,0,1,1,0,0,0,1)
+sunny = 0
+rainy =0
+for i in range(0,11):
+    if([i]==0):
+        rainy+=1
+    else:
+        sunny+=1
+    
+if(sunny>rainy):
+    print("Good weather")
+else:
+    print("Bad weather")
