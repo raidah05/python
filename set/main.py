@@ -22,4 +22,17 @@ y = {'green', 'blue'}
 print(x)
 print(y)
 z = x.intersection(y)
+a = x.union(y)
 print('The intersection of x and y is', z)
+print('The union of x and y is', a)
+
+
+
+#Csymmetric diffrence
+
+setx = {'yellow','blue'}
+sety = {'yellow','green','pink'}
+b = setx.intersection(sety)
+c = setx.union(sety)
+v = c-b
+print(v)
