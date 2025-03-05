@@ -15,3 +15,11 @@ print('The orignal set:', mysetn)
 mysetn.pop()
 print("After removing", mysetn)
 
+#intersection
+
+x = {"yellow",'blue'}
+y = {'green', 'blue'}
+print(x)
+print(y)
+z = x.intersection(y)
+print('The intersection of x and y is', z)
