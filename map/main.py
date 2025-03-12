@@ -28,3 +28,13 @@ stocks = ['bata','zara','apex']
 prices = [2234,5689,8998]
 new_dict = {stocks : prices for stocks, prices in zip(stocks,prices)}
 print('\n{}'.format(new_dict))
+
+
+
+
+#exit
+
+for i in range(10):
+    if i ==5:
+        print(exit)
+        exit()
