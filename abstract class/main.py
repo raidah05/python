@@ -13,3 +13,5 @@ class task_Class(Absclass):
 obj = task_Class()
 obj.print(100)
 obj.task()
+
+
