@@ -3,7 +3,7 @@ class flashcard:
         self.word = word
         self.meaning = meaning
     def str(self):
-        return self.word+'("+self.meaning+")'
+        return self.word+' ( '+self.meaning+' )'
     
 flash = []
 
@@ -19,4 +19,4 @@ while(True):
 
 print("\nyour flashcard")
 for i in flash:
-    print("<",i)
+    print(">", i)
