@@ -6,14 +6,14 @@ display_surface = pygame.display.set_mode((a,b))
 pygame.display.set_caption("Adding image and background image")
 surface = pygame.Surface((100,200))
 
-background_img = pygame.transform.scale(pygame.image.load('E:\CODINGAL testbasedcoding\python\pygame image\background.png').convert(),(a,b))
+background_img = pygame.transform.scale(pygame.image.load("background.png").convert(),(a,b))
 
-penguine_img = pygame.transform.scale(pygame.image.load('penguine.jpeg').convert_alpha(),(200,200))
+penguine_img = pygame.transform.scale(pygame.image.load("penguine.jpeg").convert_alpha(),(300,300))
 
 penguine_rect = penguine_img.get_rect(center =(a//2,b//2-30))
 
-text = pygame.font.Font(None,35).render("Hello world",True, pygame.color('black'))
-text_rect = text.get_rect(center =(a//2,b//2+110))
+text = pygame.font.Font(None,35).render("Hello world",True, pygame.Color('black'))
+text_rect = text.get_rect(center =(a//2,b//2+150))
 
 def game_loop():
     clock = pygame.time.Clock()
